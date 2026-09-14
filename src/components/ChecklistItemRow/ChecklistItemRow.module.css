@@ -1,0 +1,40 @@
+.row {
+  border-top: 1px solid var(--color-border);
+}
+
+.label {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.85rem 0.25rem;
+  cursor: pointer;
+}
+
+.checkbox {
+  margin-top: 0.2rem;
+  width: 1.15rem;
+  height: 1.15rem;
+  accent-color: var(--color-accent);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.titleDone {
+  text-decoration: line-through;
+  color: var(--color-muted);
+}
+
+.description {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
